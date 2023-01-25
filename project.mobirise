@@ -50,35 +50,62 @@
         "url": "https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700"
       }
     ],
-    "chatbutton": {},
+    "chatbutton": {
+      "phone": "+33757990131",
+      "message": "",
+      "size": "65px",
+      "backgroundColor": "#e5ddd5",
+      "position": "left",
+      "popupMessage": "Salut!👋\n\nTapez un message ici. Il ira directement à notre téléphone! 🔥\n\nL'équipe de Dépannage-Plomberie",
+      "showPopup": true,
+      "showOnIE": true,
+      "autoOpenTimeout": "0",
+      "headerColor": "#39847a",
+      "headerTitle": "👋 Chat  WhatsApp!",
+      "placeholder": "Type here",
+      "zIndex": 10,
+      "enabled": true
+    },
     "favicon": false,
-    "mbrsiteDomain": "uwbaqas8kq",
+    "mbrsiteDomain": "7jt2zecasz",
     "imageResize": false,
-    "cssOptimize": false,
-    "lazyLoad": false,
-    "robotsSwitcher": false,
-    "sitemapSwitcher": false,
-    "sitemapSwitcherAuto": false,
-    "siteUrl": false,
+    "cssOptimize": true,
+    "lazyLoad": true,
+    "robotsSwitcher": true,
+    "sitemapSwitcher": true,
+    "sitemapSwitcherAuto": "on",
+    "siteUrl": "http://dépannage-plomberie.com",
     "cookiesAlert": false,
-    "gdpr": false,
+    "gdpr": {
+      "colorText": "#a7a7a7",
+      "colorLink": "#149dcc",
+      "underlineLink": false,
+      "text": "En continuant, vous acceptez nos <a href='terms.html'>Conditions d'utilisation</a> et notre <a href='policy.html'>Politique de confidentialité</a>."
+    },
     "witsec-white-label": false,
     "witsec-language": false,
     "witsec-mailform": false,
-    "pwa-switcher": false,
+    "pwa-switcher": true,
     "uniqCompNum": 17,
     "versionPublish": "5.7.0",
     "screenshot": "screenshot.png",
     "mcSmartCart": {
       "currency": "USD"
+    },
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
+    "PWA": {
+      "enabled": true,
+      "name": "",
+      "icon": "@PROJECT_PATH@/assets/images/profile-pic-1-512x512.png",
+      "themeColor": "#2299aa"
     }
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
-        "meta_descr": "",
+        "title": "Dépannage Plomberie le dépannage professionnel et à bon prix",
+        "meta_descr": "Une société de Dépannage Plomberie Chauffage et sanitaire à prix règlementé assurances",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
